@@ -3,6 +3,22 @@ main {
   margin: 0 auto;
 }
 
+button {
+  font-weight: 800;
+
+  border-radius: 20px;
+  outline: none;
+  border: none;
+
+  background-color: aquamarine;
+}
+
+button:hover {
+  opacity: 0.7;
+
+  cursor: pointer;
+}
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -35,4 +51,15 @@ th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+#btn-stop {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+}
+
+#interval-btn {
+  width: 60px;
+  height: 30px;
 }
