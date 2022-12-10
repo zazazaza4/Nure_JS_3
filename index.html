@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="./css/style.css" >
     <title>Лабораторная работа №3</title>
   </head>
   <body>
     <main>
       <div class="wrapper">
-        <section>
+        <div>
           Написать скрпит, случайным образом генерирующий данные и выводящий их пользователю в виде
           таблицы, в которой постепенно добавляются новые строки. Должно отличаться оформление
           четных и нечетных строк данных, а также первой строки таблицы (заголовочной). Перед
           началом вывода пользователь может указать интервал, с которым появляются новые строки с
           данными. Предоставить возможность останавливать генерацию данных.
-        </section>
-        <section>
+        </div>
+        <div>
           <div class="interval">
-            <input type="number" id="interval" />
+            <input type="number" id="interval" >
             <button id="interval-btn">Ok</button>
           </div>
           <div class="stop">
             <button id="btn-stop">Stop</button>
           </div>
-        </section>
+        </div>
 
-        <section class="table">
+        <div class="table">
           <table id="table-1">
             <tr>
               <th>№</th>
@@ -35,7 +35,7 @@
               <th>Name</th>
             </tr>
           </table>
-        </section>
+        </div>
       </div>
     </main>
     <script src="./js/index.js" defer></script>
