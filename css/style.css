@@ -1,0 +1,38 @@
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.table {
+  width: 50vw;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: aquamarine;
+  color: #122;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
