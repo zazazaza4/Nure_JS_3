@@ -78,6 +78,7 @@ function main() {
 
   buttonInterval.addEventListener('click', () => {
     intervalId = startAddData(intervalTime, tableEl);
+    buttonInterval.disabled = true;
   });
 
   buttonStop.addEventListener('click', () => {
